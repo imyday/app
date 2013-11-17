@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Min-Yuh Day Mobile App</title>
+       <meta charset=utf-8 />
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
+       <script src="js/jquery.js"></script>
+       <link type="text/css" href="css/jquery.mobile-1.3.2.min.css" rel="stylesheet" />
+       <script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+      <!--PhoneGap-->  
+       <link rel="stylesheet" type="text/css" href="css/index.css" />
+       <!--
+       <script type="text/javascript" src="phonegap.js"></script>
+       -->
+       <script type="text/javascript" src="js/index.js"></script>
+       <!--/PhoneGap-->
+       
+       <script type="text/javascript">
+            app.initialize();
+       </script>
+       
+    </head>
+ 
+    <body>
+        <div data-role="page" id="MyHome" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <h1>Min-Yuh Day</h1>
+            </div><!-- /header -->
+          
+            <div data-role="content">
+              <div style="text-align:center">
+                  <img style="width: 50%; height: 50%" src="img/Myday_Photo.jpg">
+              </div>
+              <ul data-role="listview" data-inset="true" data-filter="true">
+                <li><a href="#Vita">Vita</a></li>
+                <li><a href="#Education">Education</a></li>                
+                <li><a href="#Research">Research</a></li>  
+                <li><a href="#Publications">Publications</a></li> 
+                <li><a href="#Teaching">Teaching</a></li> 
+                <li><a href="#ProfessionalActivities">Professional Activities</a></li> 
+              </ul>
+
+              <a href="http://mail.tku.edu.tw/myday" data-role="button" data-icon="star">Classic Web</a>
+              <a href="#People" data-role="button" data-icon="star" data-theme="c">People</a>
+              
+            </div><!-- /content -->
+ 
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <div data-role="navbar">
+                  <ul>
+                  <li><a href="#MyHome" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="home">Home</a></li>
+                  <li><a href="#Research" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="star">Research</a></li>
+                  <li><a href="#Teaching" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="check">Teaching</a></li>
+                  <li><a href="#About" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="grid">About</a></li>
+                  </ul>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page 1 MyHome-->
+      
+        <div data-role="page" id="Vita" data-add-back-btn="true" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <h1>Vita</h1>
+            </div><!-- /header -->
+            <div data-role="content">
+              <div style="text-align:center">
+                  <img style="width: 50%; height: 50%" src="img/Myday_Photo.jpg">
+              </div>
+              <p>Dr. Min-Yuh Day is an Assistant Professor in the Department of Information Management at Tamkang University, Taiwan. Prior to joining the faculty at TKU in 2011, he was a Postdoctoral Fellow in the Intelligent Agent Systems Lab, Institute of Information Science, Academia Sinica, Taiwan. He received the Ph.D. degree from the Department of Information Management at National Taiwan University, Taiwan. He received his MBA in Management Information System from Tamkang University, Taiwan. His current research interests include Knowledge Management, Electronic Commerce, Information Systems Evaluation, Social Media Service, Question Answering Systems, Data Mining and Text Mining, and Biomedical Informatics. He has published papers in Information &amp; Management, Decision Support Systems, Integrated Computer-Aided Engineering, ACM Transactions on Asian Language Information Processing, and a number of international conference proceedings.</p>
+            </div><!-- /content -->
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h4>Mobile Myday @ 2013</h4>
+            </div><!-- /footer -->
+        </div><!-- /page 2 Vita-->
+      
+        <div data-role="page" id="Education" data-theme="b">
+            <div data-role="header" data-position="inline" data-theme="b">
+                <a data-icon="back" data-rel="back" back-btn="true">Back</a>
+                <h1>Education</h1>
+              <a href="##MyHome" data-icon="home">Home</a>
+            </div><!-- /header -->
+            <div data-role="content">
+              
+              <ul data-role="listview" data-inset="true" data-filter="true">
+                <li>
+                    <a href="#" class="ui-link-inherit">
+                      <h3 class="ui-li-heading">Ph.D.</h3>
+                      <p class="ui-li-desc">Department of Information Management, National Taiwan University, 2001-2010</p>
+              </a>
+                </li>
+                <li>
+                    <a href="#" class="ui-link-inherit">
+                      <h3 class="ui-li-heading">M.B.A.</h3>
+                      <p class="ui-li-desc">Department of Information Management, Tamkang University, 1993-1995</p>
+              </a>
+                </li>
+                <li>
+                    <a href="#" class="ui-link-inherit">
+                      <h3 class="ui-li-heading">B.B.A.</h3>
+                      <p class="ui-li-desc">Department of Information Management, Tamkang University, 1989-1993</p>
+              </a>
+                </li>                
+              </ul>
+              
+              <p>
+                Ph.D.    Department of Information Management, National Taiwan University, 2001-2010<br>
+                Dissertation: A Study of Evaluation Model of User Satisfaction with Social Network Services<br>
+                Advisor: Dr. Chorng-Shyong Ong<br>
+                M.B.A.  Department of Information Management, Tamkang University, 1993-1995<br>
+                Thesis: Research of Applying Genetic Algorithms to Fuzzy Forecasting - Focus on Sales Forecasting<br>
+                Advisor: Dr. Hung-Chang Lee<br>
+                B.B.A.   Department of Information Management, Tamkang University, 1989-1993<br>
+              </p>
+          
+
+          
+            </div><!-- /content -->
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h4>Mobile Myday @ 2013</h4>
+            </div><!-- /footer -->
+        </div><!-- /page 3 Education-->  
+
+        <div data-role="page" id="Research" data-theme="b">
+            <div data-role="header" data-position="inline" data-theme="b">
+                <a data-icon="back" data-rel="back" back-btn="true">Back</a>
+                <h1>Myday Research</h1>
+              <a href="#MyHome" data-icon="home">Home</a>
+            </div><!-- /header -->
+            <div data-role="content">
+
+              <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search topics..." data-theme="c">
+                <li data-role="list-divider" data-theme="c">Research Interests</li>
+                <li data-icon="info"><a href="#"><p>Social Media Service</p></a></li> 
+                <li data-icon="info"><a href="#"><p>Mobile Apps Marketing</p></a></li>
+                <li data-icon="info"><a href="#"><p>Data Mining and Text Mining</p></a></li>
+                <li data-icon="info"><a href="#"><p>Business Intelligence</p></a></li>
+                <li data-icon="info"><a href="#"><p>Big Data Analytics</p></a></li>
+                <li data-icon="info"><a href="#"><p>Information Systems Evaluation</p></a></li> 
+                <li data-icon="info"><a href="#"><p>Question Answering Systems</p></a></li>                 
+                <li data-icon="info"><a href="#"><p>Knowledge Management</p></a></li>
+                <li data-icon="info"><a href="#"><p>Electronic Commerce</p></a></li> 
+                <li data-icon="info"><a href="#"><p>Learning Technology</p></a></li> 
+                <li data-icon="info"><a href="#"><p>Intelligent Information Systems</p></a></li> 
+                <li data-icon="info"><a href="#"><p>Biomedical Informatics</p></a></li>
+              </ul>
+              
+            </div><!-- /content -->
+          
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <div data-role="navbar">
+                  <ul>
+                  <li><a href="#MyHome" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="home">Home</a></li>
+                  <li><a href="#Research" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="star">Research</a></li>
+                  <li><a href="#Teaching" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="check">Teaching</a></li>
+                  <li><a href="#About" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="grid">About</a></li>
+                  </ul>
+                </div>
+            </div><!-- /footer -->
+          
+        </div><!-- /page 4 Research-->
+        
+        <div data-role="page" id="Teaching" data-theme="b">
+            <div data-role="header" data-position="inline" data-theme="b">
+                <a data-icon="back" data-rel="back" back-btn="true">Back</a>
+                <h1>Myday Teaching</h1>
+              <a href="#MyHome" data-icon="home">Home</a>
+            </div><!-- /header -->
+          
+            <div data-role="content">
+              <div style="text-align:center">
+                  <img style="width: 25%; height: 25%" src="img/Myday_Photo.jpg">
+              </div>
+              <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search courses..." data-theme="c">
+                <li data-role="list-divider" data-theme="c">Fall 2013 (2013.09-2014.01)<span class="ui-li-count">3</span></li>
+                <li><a href="http://mail.tku.edu.tw/myday/teaching.htm#1021SMAP" rel="external"><p>Social Media Apps Programming <br>(Fall 2013)</p></a></li>
+                <li><a href="http://mail.tku.edu.tw/myday/teaching.htm#1021CSIM4B" rel="external"><p>Case Study for Information Management <br>(Fall 2013)</p></a></li> 
+                <li><a href="http://mail.tku.edu.tw/myday/teaching.htm#1021IS" rel="external"><p>Digital Information Services <br>(Fall 2013)</p></a></li> 
+                <li data-role="list-divider" data-theme="c">Spring 2013 (2013.02-2013.06)<span class="ui-li-count">4</span></li>
+                <li><a href="http://mail.tku.edu.tw/myday/teaching.htm#1012BIT" rel="external"><p>Business Intelligence Trends <br>(Spring 2013)</p></a></li>
+                <li><a href="http://mail.tku.edu.tw/myday/teaching.htm#1012SMMM" rel="external"><p>Social Media Marketing Management <br>(Spring 2013)</p></a></li>
+                <li><a href="http://mail.tku.edu.tw/myday/teaching.htm#1012DM" rel="external"><p>Data Mining <br>(Spring 2013)</p></a></li> 
+                <li><a href="http://mail.tku.edu.tw/myday/teaching.htm#1012ISM" rel="external"><p>The Issue of Information Security Management <br>(Spring 2013)</p></a></li>                
+              </ul>
+            </div><!-- /content -->
+          
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <div data-role="navbar">
+                  <ul>
+                  <li><a href="#MyHome" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="home">Home</a></li>
+                  <li><a href="#Research" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="star">Research</a></li>
+                  <li><a href="#Teaching" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="check">Teaching</a></li>
+                  <li><a href="#About" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="grid">About</a></li>
+                  </ul>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page 5 Teaching-->      
+
+        <div data-role="page" id="People" data-theme="b">
+            <div data-role="header" data-position="inline" data-theme="b">
+                <a data-icon="back" data-rel="back" back-btn="true">Back</a>
+                <h1>People</h1>
+              <a href="#MyHome" data-icon="home">Home</a>
+            </div><!-- /header -->
+          
+            <div data-role="content">
+              <div style="text-align:center">
+                <h3>Myday Research Lab</h3>
+              </div>
+              <div>
+                <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search ..." data-theme="c">
+                  <li data-role="list-divider" data-theme="c">Faculty<span class="ui-li-count">1</span></li>
+                  <li><a href="#MyHome"><img src="img/PhotoMyday.jpg" class="ui-li-thumb"><h3>Min-Yuh Day, Ph.D.</h3><p>Assistant Professor</p></a></li> 
+                  <li data-role="list-divider" data-theme="c">MBA Students<span class="ui-li-count">3</span></li>
+                  <li><a href="#"><img src="img/PhotoKevin.jpg" class="ui-li-thumb"><h3>Kevin Tu</h3><p>Chun Tu</p><p>MBA, IM, TKU (2011-)</p></a></li> 
+                  <li><a href="#"><img src="img/PhotoTeresa.jpg" class="ui-li-thumb"><h3>Teresa Wu</h3><p>Shih-Wei Wu</p><p>MBA, IM, TKU (2012-)</p></a></li> 
+              <li><a href="#"><img src="img/PhotoLucy.jpg" class="ui-li-thumb"><h3>Lucy Wang</h3><p>Ya-Rong Wang</p><p>MBA, IM, TKU (2013-)</p></a></li> 
+                   <li data-role="list-divider" data-theme="c">MBA Alumni<span class="ui-li-count">1</span></li>
+                   <li><a href="#"><img src="img/PhotoDavid.jpg" class="ui-li-thumb"><h3>David Huang</h3><p>Shih-Jhen Huang</p><p>MBA, IM, TKU (2011-2013)</p></a></li> 
+                </ul>
+              </div>
+            </div><!-- /content -->
+          
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <div data-role="navbar">
+                  <ul>
+                  <li><a href="#MyHome" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="home">Home</a></li>
+                  <li><a href="#Research" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="star">Research</a></li>
+                  <li><a href="#Teaching" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="check">Teaching</a></li>
+                  <li><a href="#About" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="grid">About</a></li>
+                  </ul>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page 6 People-->      
+      
+      
+      
+        <div data-role="page" id="About" data-theme="b">
+            <div data-role="header" data-position="inline" data-theme="b">
+                <a data-icon="back" data-rel="back" back-btn="true">Back</a>
+                <h1>About Myday Mobile</h1>
+              <a href="#MyHome" data-icon="home">Home</a>
+            </div><!-- /header -->
+          
+            <div data-role="content">
+              
+              <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <div style="text-align:center">
+                        <img style="width: 80%; height: 80%" src="img/Myday_Photo.jpg">
+                    </div>
+                </div>
+                <div class="ui-block-b">
+                  <h3>Min-Yuh Day</h3>
+                  <p>
+                      Assistant Professor<br>
+                      Department of Information Management, Tamkang University<br>
+                  </p>
+                </div>
+              </div>
+
+              <p>
+                <b>Mobile: </b> <a href="tel:886-933282012">886-9-33282012</a><br/>
+                <b>Tel: </b> <a href="tel:886-2-26215656-2846 ext. 2846">886-2-26215656 ext. 2846</a><br>
+                <b>Fax: </b> <a href="tel:886-2-26209737">886-2-26209737</a><br>
+                <b>Office: </b>B929<br>
+                <b>Address: </b>No.151, Yingzhuan Rd., Danshui Dist., New Taipei City 25137, Taiwan (R.O.C.)<br>
+                <b>Email: </b> <a href="mailto:myday@mail.tku.edu.tw">myday@mail.tku.edu.tw</a><br>
+                <b>Web: </b> <a href="http://mail.tku.edu.tw/myday/">http://mail.tku.edu.tw/myday/</a><br>
+                
+              </p>
+              <!-- Google Map -->
+              <h3 style="text-align:center">Google Map</h3>
+              <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.tw/maps?ie=UTF8&amp;cid=134251420218242603&amp;q=Tamkang+University&amp;gl=TW&amp;hl=en&amp;t=h&amp;brcurrent=3,0x3442b019443d8d71:0x1cd2964f5cf886f1,0,0x345d5538b0b6645f:0x5aa90dfa6620edc0&amp;ll=25.173621,121.447592&amp;spn=0.006797,0.00912&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.tw/maps?ie=UTF8&amp;cid=134251420218242603&amp;q=Tamkang+University&amp;gl=TW&amp;hl=en&amp;t=h&amp;brcurrent=3,0x3442b019443d8d71:0x1cd2964f5cf886f1,0,0x345d5538b0b6645f:0x5aa90dfa6620edc0&amp;ll=25.173621,121.447592&amp;spn=0.006797,0.00912&amp;z=16&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+              <!-- Google Map -->
+          
+          </div><!-- /content -->          
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <div data-role="navbar">
+                  <ul>
+                  <li><a href="#MyHome" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="home">Home</a></li>
+                  <li><a href="#Research" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="star">Research</a></li>
+                  <li><a href="#Teaching" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="check">Teaching</a></li>
+                  <li><a href="#About" class="ui-btn-active ui-state-persist" data-transition="fade" data-icon="grid">About</a></li>
+                  </ul>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page 7 About-->    
+
+     </body>
+</html>
